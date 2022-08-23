@@ -1,0 +1,6 @@
+# 服务运行参数
+main:
+  AppName: KappaTest # 应用名称
+  HTTPAddr: ":6615" # 服务端口
+  InitDb: true # 是否初始化数据库 true:是 false:否
+  InitRedis: true # 是否初始化redis true:是 false:否
